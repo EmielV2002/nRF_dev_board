@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nRF5340-QKAA-R&")(type "KiCad")(uri "D:/KiCad/Custom parts/NRF5340-QKAA-R7.kicad_sym")(options "")(descr ""))
+)
