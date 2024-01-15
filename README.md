@@ -1,3 +1,3 @@
-# ESE_SEN
+# nRF dev board
 
-Prog 5 and 6 Teaching Materials
+A development board using the nRF53 and nPM1100 chip.
