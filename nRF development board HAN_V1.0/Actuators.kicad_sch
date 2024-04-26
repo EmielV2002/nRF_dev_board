@@ -1,43 +1,104 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 8c129a75-2a9f-4fa3-a67a-983b5f96c464)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (hierarchical_label "UART_TX" (shape input) (at 41.91 73.66 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 074ce1e1-d6c2-4b96-a82e-ced4b70b7fbd)
-  )
-  (hierarchical_label "SPI_CS" (shape input) (at 41.91 55.88 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6a8aecd2-4bea-4f93-8943-1a41b789831f)
-  )
-  (hierarchical_label "SPI_CLK" (shape input) (at 41.91 53.34 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7c6c8cf4-2fad-4eca-9d7b-302847cd7d6f)
-  )
-  (hierarchical_label "I2C_SCL" (shape input) (at 41.91 68.58 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a5212c54-1de5-41ab-adc8-90adc5e727a1)
-  )
-  (hierarchical_label "SPI_MISO" (shape input) (at 41.91 60.96 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d033dd7d-9cc2-46aa-9a67-a22e166fd153)
-  )
-  (hierarchical_label "UART_RX" (shape input) (at 41.91 76.2 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d7d3178b-c17a-484b-a1c7-c45408cfe2d5)
-  )
-  (hierarchical_label "I2C_SDA" (shape input) (at 41.91 66.04 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e09aba69-a758-4dbb-960b-ee416f9c9711)
-  )
-  (hierarchical_label "SPI_MOSI" (shape input) (at 41.91 58.42 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid eb22e8ed-b7e7-4c3a-aa4f-e1cb1cd5307b)
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8c129a75-2a9f-4fa3-a67a-983b5f96c464")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "UART_TX"
+		(shape input)
+		(at 41.91 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "074ce1e1-d6c2-4b96-a82e-ced4b70b7fbd")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape input)
+		(at 41.91 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a8aecd2-4bea-4f93-8943-1a41b789831f")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape input)
+		(at 41.91 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c6c8cf4-2fad-4eca-9d7b-302847cd7d6f")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 41.91 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5212c54-1de5-41ab-adc8-90adc5e727a1")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
+		(at 41.91 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d033dd7d-9cc2-46aa-9a67-a22e166fd153")
+	)
+	(hierarchical_label "UART_RX"
+		(shape input)
+		(at 41.91 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7d3178b-c17a-484b-a1c7-c45408cfe2d5")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape input)
+		(at 41.91 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e09aba69-a758-4dbb-960b-ee416f9c9711")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 41.91 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb22e8ed-b7e7-4c3a-aa4f-e1cb1cd5307b")
+	)
 )

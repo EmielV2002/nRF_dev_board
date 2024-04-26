@@ -67,24 +67,17 @@
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "nRF development board HAN_V1.0.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "nRF development board HAN_V1.0.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -9,
-          "pos_y": -9,
-          "size_x": 1938,
-          "size_y": 1038
-        }
-      }
-    ]
+    "files": []
   }
 }
